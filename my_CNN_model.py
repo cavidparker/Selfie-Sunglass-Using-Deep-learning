@@ -1,5 +1,5 @@
 
-def get_my_CNN_model_architecture():
+def get_my_CNN_model_arch():
   
     model = Sequential()
     model.add(Convolution2D(32, (5, 5), input_shape=(96,96,1), activation='relu'))
